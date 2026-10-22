@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bibilio2.gui" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="   bin/Release/Bibliotheque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-s -static" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../bibilio2" />
+		</Compiler>
+		<Unit filename="../bibilio2/bibliotheque.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bibilio2/bibliotheque.h" />
+		<Unit filename="../bibilio2/membre.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bibilio2/membre.h" />
+		<Unit filename="../bibilio2/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bibilio2/utils.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
