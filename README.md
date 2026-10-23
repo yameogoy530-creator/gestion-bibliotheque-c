@@ -3,7 +3,7 @@
 
 Application de gestion de bibliothèque pour **Windows**, écrite en **langage C** : livres, membres, emprunts, détection des retards, avec une interface graphique native (API Win32) et une version console.
 
-![Fenêtre principale](images1.png)
+![Fenêtre principale](image1.png)
 
 ## Fonctionnalités
 
@@ -13,7 +13,7 @@ Application de gestion de bibliothèque pour **Windows**, écrite en **langage C
 - **Sauvegarde automatique** dans des fichiers texte (`livres.txt` et `membres.txt`)
 - **Deux interfaces** : une fenêtre Windows et un menu en console, qui partagent le même code
 
-![Recherche](images2.png)
+![Recherche](image2.png)
 
 ## Essayer le programme
 
